@@ -18,8 +18,8 @@ const About = () => {
                 <div className="bio-title-item">Front End Web Developer</div>
                 <div className="bio-title-item">UI/UX Designer</div>
                 <div className="bio-title-item">Photographer</div>
-                <div className="bio-title-item">Writer</div>
-                <div className="bio-title-item">Content Creator</div>
+                <div className="bio-title-item">Digital Marketing Specialist</div>
+
 
             </div>
         </div>
