@@ -2,17 +2,18 @@ import "./about.css"
 
 
 
+import React from 'react'
+
 const About = () => {
   return (
     <div className="about">
-        <div className="about-left">
-          <div className="about-card bg"></div>
-          <div className="about-card">
-          <img src="../../img/bio-image.png" alt="" className="about-img" />
-           
-          </div>
+      <div className="about-left">
+        <div className="about-card"></div>
+        <div className="about-card">
+          <img src="/images/about-image.jpg" alt="" className="about-img" />
         </div>
-        <div className="about-right"></div>
+      </div>      
+      <div className="about-right"></div>
     </div>
   )
 }
