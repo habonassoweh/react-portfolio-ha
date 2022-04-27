@@ -3,6 +3,7 @@ import "./about.css"
 
 const About = () => {
   return (
+
     <div className='about'>
         <div className="about-left">
             <div className="about-card bg"></div>
