@@ -5,12 +5,13 @@ import "./nav.css"
  
 
  const Nav = (props) => {
-
-   const{
-     categories =[],
-     setCurrentCategory,
-     currentCategory,
-   } =props;
+  const {
+    categories = [],
+    setCurrentCategory,
+    currentCategory,
+    contactSelected,
+    setContactSelected
+  } = props;
 
    useEffect(() => {
     document.title = capitalizeFirstLetter(currentCategory.name);
@@ -18,11 +19,17 @@ import "./nav.css"
   
    return (
      <div>
-       <nav className='navbar'>
+       <nav className='navbar' 
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+       >
        <h1>Hi!</h1>
          <ul>
            <li><a href="#home">HOME</a></li>
-           <li><a href="#about">ABOUT</a></li>
+           <li><a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>ABOUT</a></li>
            <li><a href="#contact">CONTACT</a></li>
            {categories.map((category) => (
              <li

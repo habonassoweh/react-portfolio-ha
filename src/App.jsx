@@ -20,6 +20,7 @@ const App = () => {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  
   return( 
   <div>
     <Nav
