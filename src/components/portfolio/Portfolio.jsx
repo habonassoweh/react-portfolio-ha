@@ -6,7 +6,7 @@ import photo from "../../images/1.png"
 
 export const Portfolio = () => {
 
-  function Port (props) {
+ 
     const currentCategory = {
       name: "portfolio",
       description: "past projects that I've made"
@@ -25,7 +25,7 @@ export const Portfolio = () => {
         </div>
       </section>
     );
-  };
+
 
  
 }
