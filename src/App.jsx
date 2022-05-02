@@ -29,7 +29,7 @@ const App = () => {
     <main>
     <Bio/>
     <About/>
-    <Portfolio/>
+    <Portfolio currentCategory={categories[0]}/>
     </main>
     <Contact/>
     <Footer/>

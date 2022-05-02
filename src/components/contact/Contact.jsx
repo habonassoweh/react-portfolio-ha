@@ -13,7 +13,7 @@ const Contact = () => {
           <h1 className="contact-title">Let's Chat</h1>
           <div className="contact-info">
             <div className="contact-info-item">
-              <img src="/images/contact-image.jpg" alt="" className='contact-img'/>
+              {/* <img src="/img/contact-image.jpg" alt="" className='contact-img'/> */}
             </div>
           </div>
         </div>
