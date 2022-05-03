@@ -30,4 +30,5 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-http://localhost:3000/?name=Habon+Assoweh&email=habon\_%40hotmail.com&message=huohlk
+link:
+https://habonassoweh.github.io/react-portfolio-ha/
