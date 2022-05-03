@@ -20,9 +20,7 @@ I help designers, small agencies and businesses bring their ideas to life. Power
             </p>
 
             <p className='about-des'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem facere voluptas ratione cum soluta.
-                Porro temporibus modi quaerat voluptatem voluptatum qui repudiandae, id, nostrum consequatur laboriosam maiores 
-                dolorem doloribus cum magni consequuntur error cupiditate sapiente autem culpa illo blanditiis?
+              
             </p>
         </div>
     </div>

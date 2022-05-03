@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='footer'>
-      div
-        <h1>Footer</h1>
+    
+        Footer
     </div>
   )
 }
