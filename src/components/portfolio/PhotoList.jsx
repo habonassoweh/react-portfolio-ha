@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Modal from '../modal/Modal';
 
 import clouds from '../../images/1.png';
 
@@ -14,15 +15,17 @@ import pinkcloud from '../../images/6.png';
 
 
 function PhotoList() {
+    const [currentPhoto, setCurrentPhoto] = useState();
+    const [isModalOpen, setIsModalOpen] = useState(false);
     const [photos] = useState([{
         name:"project 1",
-        category:"portfolio",
+        category:"images",
         describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.",
         variable: clouds
     },
     {
         name:"project 2",
-        category:"portfolio",
+        category:"images",
         describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.",
         variable: sparkly
     },
@@ -50,8 +53,13 @@ function PhotoList() {
         describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.",
         variable: pinkcloud
     }])
+    const toggleModal = (image, i) => {
+        setCurrentPhoto({...image, index: i})
+        setIsModalOpen(true);
+      }
     return (
       <div>
+          {isModalOpen && <Modal currentPhoto={currentPhoto} />}
           <div className='flex-row'>
               {photos.map((image, i) => (
                   <img
@@ -59,6 +67,7 @@ function PhotoList() {
 
                   alt={image.name}
                   className="img-thumbnail mx-1"
+                  onClick={() => toggleModal(image, i)}
                   key={image.name}
                   />
               ))}

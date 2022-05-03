@@ -21,10 +21,10 @@ import "./nav.css"
      <div>
        <nav className='navbar' 
           categories={categories}
-          setCurrentCategory={setCurrentCategory}
-          currentCategory={currentCategory}
-          contactSelected={contactSelected}
-          setContactSelected={setContactSelected}
+          setcurrentcategory={setCurrentCategory}
+          currentcategory={currentCategory}
+          contactselected={contactSelected}
+          setcontactselected={setContactSelected}
        >
        <h1>Hi!</h1>
          <ul>
