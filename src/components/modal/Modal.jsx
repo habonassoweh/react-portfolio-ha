@@ -9,7 +9,7 @@ function Modal ({currentPhoto}){
         <div className="modalBackdrop">
         <div className="modalContainer">
           <h3 className="modalTitle">{name}</h3>
-          <img src={(`../../images/${category}/${index}.png`)} alt="current category" />
+          <img src={(`../../images/${index}.png`)} alt="current category" />
           <p>
             {description}
           </p>
