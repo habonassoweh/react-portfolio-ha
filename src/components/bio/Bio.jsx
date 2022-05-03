@@ -24,7 +24,7 @@ const About = () => {
             </div>
         </div>
 
-        <p className="bio-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum omnis molestiae, vitae deserunt nihil unde temporibus libero recusandae provident iure?</p>
+        <p className="bio-desc">Hi, I'm Habon! I design and build user interfaces</p>
         
     </div>
     

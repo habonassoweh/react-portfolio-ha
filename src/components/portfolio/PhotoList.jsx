@@ -20,37 +20,37 @@ function PhotoList() {
     const [photos] = useState([{
         name:"project 1",
         category:"images",
-        describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.",
+        description: "An image of purple clouds",
         variable: clouds
     },
     {
         name:"project 2",
         category:"images",
-        describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.",
+        description: "An image of a galactic blue sky.",
         variable: sparkly
     },
     {
         name:"project 3",
         category:"portfolio",
-        describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.",
+        description: "An image of light green/orange clouds",
         variable: greencloud
     },
     {
         name:"project 4",
         category:"portfolio",
-        describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.",
+        description: "An image of blue clouds",
         variable: bluecloud
     },
     {
         name:"project 5",
         category:"portfolio",
-        describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.",
+        description: "An image of pastel clouds.",
         variable: pastel
     },
     {
         name:"project 6",
         category:"portfolio",
-        describe: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, ullam.",
+        description: "An image of pink clouds.",
         variable: pinkcloud
     }])
     const toggleModal = (image, i) => {
